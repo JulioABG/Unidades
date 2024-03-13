@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 60px;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2em;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-text {
+    color: #333;
+    padding: 20px;
+}
+
+.container-text p {
+    line-height: 1.6;
+}
+
+.container-img img {
+    width: 100%;
+    display: block;
+    padding: 20px 0;
+}
+
+/* Agrega un poco de estilo a los párrafos para que coincidan más con la temática de Gymshark */
+.container-text p {
+    background-color: #9f9b9b;
+    border-left: 5px solid #00b2a9;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+/* Estilo para el texto, haciéndolo un poco más grande y oscuro para enfatizar la elegancia */
+.container-text {
+    color: #212121;
+    font-size: 18px;
+}
+
+/* Opcional: Si deseas que los contenedores de texto tengan bordes redondeados */
+.container-text {
+    border-radius: 8px;
+}
+
+/* Opcional: Añadir un hover efect para los párrafos, para un pequeño detalle interactivo */
+.container-text p:hover {
+    background-color: #d1f0f0;
+    border-left-color: #007b74;
+    cursor: pointer;
+}
